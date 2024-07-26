@@ -1,4 +1,3 @@
-// @import '.././web-report/Scroll.scss';
 
 .tdCustomContainer {
     table {
@@ -38,7 +37,6 @@
     }
   }
   .tdCustomContainer {
-  //   @include ScrollBar();
     overflow-y: scroll;
     height: 57vh;
     border-width: 1px;
@@ -46,7 +44,6 @@
     border-style: solid;
     border-radius: 5px;
     margin: 0.1vh;
-    // width: fit-content;
   }
   
   .TheadFixed {
@@ -55,7 +52,6 @@
   }
   
   .custom {
-    // margin-left: 24px;
     display: flex;
     height: 35px;
     width: 240px;

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Col } from "react-bootstrap";
+import CustomTable from "../Components/CustomTable";
 const CST = () => {
   return (
     <Col
@@ -15,7 +16,7 @@ const CST = () => {
         fontFamily: "Poppins, sans-serif",
       }}
     >
-      <div>hello</div>
+      <CustomTable />
     </Col>
   );
 };

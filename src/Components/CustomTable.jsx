@@ -1,5 +1,5 @@
 import React from "react";
-import "./table.scss";
+import "./table.css";
 // import Utils from "../../../../Utils";
 // import NoData from "../../../../Components/Common/NoData";
 import { AiOutlineDownload, AiOutlineDelete } from "react-icons/ai";
