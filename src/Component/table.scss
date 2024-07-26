@@ -1,0 +1,76 @@
+// @import '.././web-report/Scroll.scss';
+
+.tdCustomContainer {
+    table {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th {
+      font-weight: 550;
+      font-size: 12px;
+      min-width: 140px;
+      border-bottom-width: 1px;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      /* width: 100px; */
+      position: sticky;
+      background-color: LightGray;
+    }
+    td {
+      font-weight: 300;
+      font-size: 14px;
+      /* border: 1px solid #ebedf3; */
+      vertical-align: top;
+      padding: 0.5rem 0.2rem;
+      font-family: Arial, Helvetica, sans-serif;
+      height: 100%;
+    }
+    .tr {
+      width: fit-content;
+    }
+  
+    .striped:nth-child(even) {
+      background-color: #e9edf0;
+    }
+    .hover:hover {
+      background-color: #d3d3d3;
+    }
+  }
+  .tdCustomContainer {
+  //   @include ScrollBar();
+    overflow-y: scroll;
+    height: 57vh;
+    border-width: 1px;
+    border-color: #d3d3d3;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 0.1vh;
+    // width: fit-content;
+  }
+  
+  .TheadFixed {
+    position: sticky;
+    top: 0;
+  }
+  
+  .custom {
+    // margin-left: 24px;
+    display: flex;
+    height: 35px;
+    width: 240px;
+    margin: 8px;
+    margin-left: 4.9vh;
+    border: solid 1px #d3d3d3;
+    border-radius: 5px;
+  }
+  
+  .customButton {
+    display: flex;
+    height: 35px;
+    width: 70px;
+    margin: 8px;
+    margin-left: 10px;
+    justify-content: center;
+  }
+  

@@ -14,20 +14,15 @@ const Sidebar = () => {
         />
       </div>
       <ul className="sidebar-menu">
-        {/* <li  className={`${location.pathname === "/keyword-optimisation" || location.pathname === "/" ? "active" : ""} `}
-          style={{border:"none"}}>
-          <Link to="/keyword-optimisation">Keyword optimisation</Link>
-        </li> */}
         <li
           className={`${
-            location.pathname === "/kpi-configuration" ||
-            location.pathname === "/"
+            location.pathname === "/cst" || location.pathname === "/"
               ? "active"
               : ""
           } `}
           style={{ border: "none" }}
         >
-          <Link to="/kpi-configuration">Keyword Bid Optimisation</Link>
+          <Link to="/cst">Calgate Social Tool</Link>
         </li>
       </ul>
     </div>
