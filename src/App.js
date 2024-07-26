@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Sidebar from "./Layout/Sidebar";
 import { Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import CST from "./Pages/cst";
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
         >
           <Col xl={12} lg={11} md={10} sm={6} xs={6}>
             <Routes>
-              {/* <Route path="/keyword-optimisation" element={<Keyword />} /> */}
+              <Route path="/cst" element={<CST />} />
             </Routes>
           </Col>
         </div>
