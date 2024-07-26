@@ -22,7 +22,7 @@ const Sidebar = () => {
           } `}
           style={{ border: "none" }}
         >
-          <Link to="/cst">Calgate Social Tool</Link>
+          <Link to="/cst">Colgate Social Tool</Link>
         </li>
       </ul>
     </div>
