@@ -1,7 +1,5 @@
 import React from "react";
 import "./table.css";
-// import Utils from "../../../../Utils";
-// import NoData from "../../../../Components/Common/NoData";
 import { AiOutlineDownload, AiOutlineDelete } from "react-icons/ai";
 import { MdModeEditOutline, MdVisibility } from "react-icons/md";
 import { ImCancelCircle } from "react-icons/im";
